@@ -1,0 +1,17 @@
+O contexto
+
+O Detran está com dificuldades com a base dos seus sistemas e precisa de ajuda na parte de cadastro. Em um primeiro momento, 
+eles precisam que seja elaborada uma nova base de cadastros para que o sistema volte a funcionar e não percam nenhum dado.
+
+
+
+O case
+
+Agora que você já tem o contexto principal nós queremos saber: como você desenvolveria um código para atender as necessidades desse cliente? 
+
+
+Resposta
+
+Seria necessário fazer um levantamento com o cliente, de quais seriam suas necessidades e se existiria algum tipo de melhoria que poderia ser implantada.Caso algo do código
+esteja fora do meu conhecimento, eu procuraria uma forma de resolver pesquisando algum problema semelhante na internet, como por exemplo o site StackOverflow.Caso eu não tenha 
+progresso, eu buscaria referência com alguém mais experiente com determinado tipo de código.Caso a dúvida persistir, eu buscaria em fóruns.

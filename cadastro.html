@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="cadastro.css" />
+    <script type="text/javascript" src="cadastro.js"></script>
+    <title>Cadastro</title>
+</head>
+
+<body>
+<div class="container">
+    <h1>CADASTRO </h1>
+    <form name="cadastro" action="" onsubmit="cadastroOk();">
+
+    <div class="coluna">
+        <label class="nome" for="envia">Nome:</label>
+         <input type="text" name="nomePadrao"  required onchange="confereNome()" >
+           
+          <label class="idade" for ="envia">Idade:</label>
+          <input type="number" name="idadePadrao"  required onchange="confereIdade()">
+           
+    </div>
+
+    <div class="coluna">
+        <label class="prof"  for ="envia">Profissão:</label>
+         <input type="text" name="profPadrao"  required onchange="confereProfissao()">
+           
+         <label  class="email" for ="envia">E-mail:</label>
+         <input type="email" name="emailPadrao"  required onchange="confereEmail()">
+          
+    </div>
+
+    <div class="coluna">
+         <label class="tel"  for ="envia">Telefone:</label>
+          <input type="tel" name="fonePadrao"  required onchange="confereFone()">
+           
+         <label class="data" for ="envia">Data de Preenchimento:</label>
+          <input type="datetime" name="dataPadrao"  required onchange="confereData()">
+           
+    <button type="submit"  value="Enviar">Enviar</button>
+ </div>
+   
+  
+</form>
+ </div>
+</body>
+</html>
